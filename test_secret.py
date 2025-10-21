@@ -12,6 +12,7 @@ if secret:
     # Check if it matches our expected secret
     if secret == "my-test-secret-123":
         print("✅ Secret value is correct!")
+        print (secret)
     else:
         print("⚠️  Secret value doesn't match expected")
 else:
